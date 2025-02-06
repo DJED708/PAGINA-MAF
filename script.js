@@ -24,7 +24,7 @@ function moverBoton() {
     
     const imagenes = [
         "C:/Users/castr/Documents/san valentin/gato-depresivo-triste.jpg",
-        "C:/Users/castr/Documents/san valentin/hamster triste.jpg",
+        "https://github.com/DJED708/PAGINA-MAF/blob/main/hamster%20triste.jpg",
         "C:/Users/castr/Documents/san valentin/gato trite.jpg",
         "DJED708/PAGINA-MAF/si.jpg",
         "C:/Users/castr/Documents/san valentin/llanto.jpg"
