@@ -1,5 +1,5 @@
 function aceptar() {
-    window.location.href = "collage.html";
+    window.location.href = "collage.html"; // Asegúrate de que collage.html está en la ruta correcta
 }
 
 function moverBoton() {
@@ -13,7 +13,7 @@ function moverBoton() {
     boton.style.left = `${x}px`;
     boton.style.top = `${y}px`;
 
-    // Lista de frases y mini imágenes
+    // Lista de frases y mini imágenes con rutas relativas
     const frases = [
         "¡ELIJE QUE SI!",
         "¿ESTAS SEGURA?🥺",
@@ -23,11 +23,11 @@ function moverBoton() {
     ];
     
     const imagenes = [
-        "C:/Users/castr/Documents/san valentin/gato-depresivo-triste.jpg",
-        "https://github.com/DJED708/PAGINA-MAF/blob/main/hamster%20triste.jpg",
-        "C:/Users/castr/Documents/san valentin/gato trite.jpg",
-        "DJED708/PAGINA-MAF/si.jpg",
-        "C:/Users/castr/Documents/san valentin/llanto.jpg"
+        "imagenes/gato-depresivo-triste.jpg",
+        "imagenes/hamster-triste.jpg",
+        "imagenes/gato-triste.jpg",
+        "imagenes/si.jpg",
+        "imagenes/llanto.jpg"
     ];
 
     // Elegir un mensaje e imagen aleatoria
