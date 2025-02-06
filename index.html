@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Quieres ser mi San Valentín?</title>
+    <style>
+        body {
+            background-color: #ff7f7f; /* Color de fondo rosa */
+            font-family: 'Arial', sans-serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Para que ocupe toda la altura de la pantalla */
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            margin: 10px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        #aceptar {
+            background-color: #ff66b2; /* Rosa */
+            color: white;
+        }
+
+        #aceptar:hover {
+            background-color: #ff3385; /* Rosa más oscuro */
+        }
+
+        #rechazar {
+            background-color: #ff4d4d; /* Rojo */
+            color: white;
+        }
+
+        #rechazar:hover {
+            background-color: #e60000; /* Rojo más oscuro */
+        }
+
+        #mensaje {
+            margin-top: 20px;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>¿Quieres ser mi San Valentín? 💖</h1>
+        <button id="aceptar" onclick="aceptar()">¡SI! 💕</button>
+        <button id="rechazar" onclick="moverBoton()">NO 💔</button>
+        <div id="mensaje"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
