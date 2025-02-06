@@ -26,7 +26,7 @@ function moverBoton() {
         "C:/Users/castr/Documents/san valentin/gato-depresivo-triste.jpg",
         "C:/Users/castr/Documents/san valentin/hamster triste.jpg",
         "C:/Users/castr/Documents/san valentin/gato trite.jpg",
-        "C:/Users/castr/Documents/san valentin/si.jpg",
+        "DJED708/PAGINA-MAF/si.jpg",
         "C:/Users/castr/Documents/san valentin/llanto.jpg"
     ];
 
